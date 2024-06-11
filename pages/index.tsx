@@ -44,7 +44,7 @@ export default function App() {
         id: `e${params.source}-${params.target}`,
         source: params.source,
         target: params.target,
-      };
+      } as Edge;
 
       setEdges([...edges, newConnection]);
     } else {
